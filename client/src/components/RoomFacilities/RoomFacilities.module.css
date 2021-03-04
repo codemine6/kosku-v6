@@ -1,0 +1,23 @@
+.facilities {
+    background: #fff;
+    padding: 1.5rem;
+    margin: .5rem 0;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.item {
+    width: calc(100% / 6 - .8rem);
+    background: #01cc9d18;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
+    margin: .4rem;
+}
+.item i {
+    width: 1.6rem;
+}

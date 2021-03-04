@@ -1,0 +1,37 @@
+.container {
+    padding: 4rem 1.5rem 1.5rem;
+}
+
+/* Rating */
+.rating {
+    text-align: center;
+    margin-top: 2rem;
+}
+.rating i {
+    width: 13%;
+    fill: #ccc;
+    display: inline-block;
+    margin: 0 .2rem;
+    cursor: pointer;
+}
+.marked {
+    fill: #fab700 !important;
+}
+
+/* Form */
+.form {
+    margin-top: 1.5rem;
+}
+.form label {
+    font-weight: bold;
+}
+.form textarea {
+    width: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+    border: .1rem solid #ddd;
+    border-radius: .3rem;
+    outline: none;
+    padding: .6rem .8rem;
+    margin: 1rem 0;
+}

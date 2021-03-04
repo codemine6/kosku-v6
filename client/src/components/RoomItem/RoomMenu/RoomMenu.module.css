@@ -1,0 +1,13 @@
+.menu {
+    top: 2.5rem;
+    right: 1.5rem;
+    background: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0 1rem #0002;
+    position: absolute;
+}
+.menu p {
+    font-size: .8rem;
+    margin: .7rem 1rem;
+    cursor: pointer;
+}

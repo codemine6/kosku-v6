@@ -1,0 +1,10 @@
+.list {
+    margin: 4rem 1.5rem 1.5rem;
+}
+.empty {
+    top: calc(50% - 4rem);
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}

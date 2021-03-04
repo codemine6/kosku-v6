@@ -1,0 +1,31 @@
+.button {
+    color: #fff;
+    font-weight: bold;
+    font-family: inherit;
+    background: #01cc9d;
+    border: none;
+    border-radius: .5rem;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
+.button:disabled {
+    color: #888;
+    background: #eee;
+}
+.ripple {
+    background: #fff5;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(0);
+    animation: ripple .7s linear;
+}
+
+@keyframes ripple {
+    to {
+        opacity: 0;
+        transform: scale(3);
+    }
+}

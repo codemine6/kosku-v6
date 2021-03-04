@@ -1,0 +1,33 @@
+/* Menu */
+.menu {
+    top: 4.3rem;
+    right: .3rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem #0002;
+    position: absolute;
+    padding: .3rem;
+}
+.menu p {
+    font-size: .8rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+/* List */
+.list {
+    height: 100vh;
+    background: #eee;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 4rem 1rem;
+}
+.list::-webkit-scrollbar {
+    display: none;
+}
+.date {
+    color: #555;
+    font-size: .8rem;
+    text-align: center;
+    margin: 1rem;
+}

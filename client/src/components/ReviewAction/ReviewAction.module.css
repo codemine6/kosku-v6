@@ -1,0 +1,66 @@
+.review {
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Room */
+.room {
+    display: flex;
+    margin-bottom: .5rem;
+}
+.room img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.location {
+    display: flex;
+}
+.location svg {
+    width: 1.3rem;
+    fill: #01cc9d;
+    margin-right: .5rem;
+}
+.location span {
+    font-size: .8rem;
+    font-weight: bold;
+}
+.location p {
+    color: #888;
+    font-size: .8rem;
+}
+
+.from {
+    font-size: .8rem;
+}
+.time {
+    color: #888;
+    font-size: .7rem;
+}
+.text {
+    color: #555;
+    font-size: .8rem;
+    margin: .8rem 0;
+}
+
+#replyBtn {
+    color: #01cc9d;
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+/* Form */
+.form textarea {
+    width: 100%;
+    font-family: inherit;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    outline: none;
+    padding: .7rem;
+    margin: .5rem 0;
+}

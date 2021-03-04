@@ -1,0 +1,22 @@
+.message {
+    top: 2rem;
+    right: 2rem;
+    border-radius: .5rem;
+    position: absolute;
+    box-shadow: 0 0 1rem #0002;
+    transform: scale(0);
+    padding: .5rem .7rem;
+    z-index: 2;
+    animation: scale .2s forwards;
+}
+.message p {
+    color: #01cc9d;
+    font-size: .8rem;
+    white-space: nowrap;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1);
+    }
+}

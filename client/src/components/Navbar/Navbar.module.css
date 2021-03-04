@@ -1,0 +1,17 @@
+.navbar {
+    width: 100%;
+    max-width: inherit;
+    height: 4rem;
+    top: 0;
+    background: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+}
+.navbar i {
+    width: 1.4rem;
+    fill: #aaa;
+    cursor: pointer;
+}

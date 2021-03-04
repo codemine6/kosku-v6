@@ -1,0 +1,40 @@
+.inputGroup {
+    position: relative;
+}
+.inputGroup input {
+    width: 100%;
+    color: #333;
+    font-size: 1rem;
+    font-family: inherit;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    outline: none;
+    padding: .5rem 2rem .5rem .8rem;
+}
+.inputGroup span {
+    bottom: -1.5rem;
+    right: 0;
+    color: #555;
+    font-size: .7rem;
+    border-radius: .2rem;
+    box-shadow: 0 0 .5rem #0002;
+    position: absolute;
+    padding: .2rem .3rem;
+}
+.invalid {
+    border: .1rem solid #ff7878 !important;
+}
+.validIcon {
+    width: 1.2rem;
+    top: .6rem;
+    right: .5rem;
+    position: absolute;
+}
+.eyeIcon {
+    width: 1rem;
+    top: .7rem;
+    right: .5rem;
+    fill: #555;
+    position: absolute;
+    cursor: pointer;
+}

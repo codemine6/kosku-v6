@@ -1,0 +1,39 @@
+.select {
+    position: relative;
+}
+.select i {
+    top: .8rem;
+    right: 1rem;
+    width: 1rem;
+    fill: #01cc9d;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* Header */
+.header {
+    color: #01cc9d;
+    font-weight: bold;
+    border: .1rem solid #01cc9d;
+    border-radius: .5rem;
+    padding: .5rem .7rem .6rem;
+    cursor: pointer;
+}
+
+/* Options */
+.options {
+    width: 100%;
+    background: #fff;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    position: absolute;
+    margin-top: .5rem;
+    z-index: 1;
+}
+.options p {
+    color: #555;
+    font-size: .9rem;
+    margin: .7rem 1rem;
+    cursor: pointer;
+}

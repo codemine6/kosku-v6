@@ -1,0 +1,21 @@
+.action {
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 0 .5rem #0002;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 2;
+}
+.price {
+    text-align: center;
+}
+.price p {
+    font-size: .9rem;
+}
+.price span {
+    color: #fab700;
+    font-size: .7rem;
+}

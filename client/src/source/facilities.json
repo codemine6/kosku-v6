@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "name": "Kamar tidur"
+    },
+    {
+        "id": "2",
+        "name": "Kamar mandi"
+    },
+    {
+        "id": "3",
+        "name": "Sofa"
+    },
+    {
+        "id": "4",
+        "name": "Kipas angin"
+    },
+    {
+        "id": "5",
+        "name": "TV"
+    },
+    {
+        "id": "6",
+        "name": "AC"
+    },
+    {
+        "id": "7",
+        "name": "Wifi"
+    },{
+        "id": "8",
+        "name": "Area parkir"
+    }
+]

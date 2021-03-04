@@ -1,0 +1,30 @@
+/* Review */
+.review {
+    background: #fff;
+    padding: 1.5rem;
+    margin-top: .5rem;
+}
+.count {
+    color: #555;
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+/* Item */
+.item {
+    height: 5rem;
+    margin: 1rem 0;
+}
+.item p {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+.review button {
+    color: #01cc9d;
+    font-weight: bold;
+    font-family: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

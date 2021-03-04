@@ -1,0 +1,17 @@
+.my {
+    margin: 4rem 1.5rem 1.5rem;
+}
+
+/* Search */
+.search {
+    margin: 1rem 0;
+}
+.search input {
+    width: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    outline: none;
+    padding: .5rem .8rem;
+}

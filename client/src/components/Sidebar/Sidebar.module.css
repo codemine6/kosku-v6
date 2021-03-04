@@ -1,0 +1,88 @@
+.sidebar {
+    width: 70%;
+    height: calc(100vh - 4rem);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 2;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+    margin: 1rem;
+}
+.profile img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile h3 {
+    font-weight: bold;
+    margin: .5rem 0;
+}
+.status {
+    color: #01cc9d;
+    font-size: .9rem;
+}
+
+/* Menu */
+.menu {
+    margin: 1rem 0;
+}
+.menu li {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: .8rem 2.7rem;
+}
+.menu svg {
+    width: 1.5rem;
+    fill: #01cc9d;
+    margin-right: 1rem;
+}
+.menu li:hover {
+    background: #01cc9d11;
+    cursor: pointer;
+}
+
+/* Other */
+.other {
+    border-top: .1rem solid #01cc9d;
+    padding: 2rem;
+    margin: 1rem;
+}
+.other li {
+    color: #aaa;
+    list-style: none;
+    font-size: .8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+.other svg {
+    width: 1rem;
+    fill: #a5aab5;
+    cursor: pointer;
+}
+
+/* Overlay */
+.overlay {
+    width: 30%;
+    top: 1rem;
+    bottom: 0;
+    background: #0003;
+    position: absolute;
+    z-index: 2;
+}

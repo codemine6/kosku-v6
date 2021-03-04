@@ -1,0 +1,22 @@
+.sticky {
+    top: 0;
+    background: #fff;
+    position: sticky;
+    padding: 1rem;
+    margin-top: 3.5rem;
+    z-index: 1;
+}
+.nearest {
+    color: #01cc9d;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    background: none;
+    border: none;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}

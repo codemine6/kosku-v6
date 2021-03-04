@@ -1,0 +1,74 @@
+.item {
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    position: relative;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.moreIcon {
+    width: 1rem;
+    right: .5rem;
+    fill: #555;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* Main */
+.main {
+    display: flex;
+}
+.main img {
+    width: 5rem;
+}
+
+/* Detail */
+.detail {
+    width: 100%;
+    border-bottom: .08rem solid #01cc9d;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+}
+.detail h3 {
+    margin-right: 1rem;
+}
+
+/* Location */
+.location {
+    display: flex;
+    margin: .5rem 0;
+}
+.location svg {
+    width: 1.2rem;
+    fill: #01cc9d;
+    margin-right: .5rem;
+}
+.location span {
+    font-size: .8rem;
+    font-weight: bold;
+}
+.location p {
+    color: #555;
+    font-size: .8rem;
+}
+
+/* Price */
+.price {
+    color: #888;
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Other */
+.other {
+    display: flex;
+    margin-top: 1rem;
+}
+.other p {
+    font-size: .8rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+.other b {
+    margin-right: .3rem;
+}

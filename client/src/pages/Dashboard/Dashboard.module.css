@@ -1,0 +1,106 @@
+.title {
+    margin: 0 1.5rem;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    margin: 4rem 1.5rem 0;
+    cursor: pointer;
+}
+.profile img {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.profile p {
+    color: #555;
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+/* Info */
+.info {
+    display: flex;
+    overflow-x: auto;
+    margin: 0 1.5rem;
+}
+.info div {
+    width: 37%;
+    border-radius: 1rem;
+    box-shadow: 0 .2rem .5rem #0002;
+    flex-shrink: 0;
+    position: relative;
+    padding: 1rem;
+    margin: 1.5rem 1rem 1rem 0;
+    cursor: pointer;
+}
+.info svg {
+    width: 3.5rem;
+    fill: #fff3;
+    transform: rotate(30deg);
+    position: absolute;
+}
+.info p {
+    color: #fff;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: right;
+    white-space: nowrap;
+    padding: 1.2rem 0;
+}
+.info div:nth-child(1) {
+    background: #45aaf2;
+}
+.info div:nth-child(2) {
+    background: #01cc9d;
+}
+.info div:nth-child(3) {
+    background: #fed330;
+}
+.info::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Item */
+.list {
+    margin: 1rem 1.5rem 1.5rem;
+}
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.icon {
+    width: 3.5rem;
+    border-radius: 1rem;
+    padding: .8rem .9rem .7rem .9rem;
+    margin-right: 1.5rem;
+}
+.item:nth-child(1) .icon {
+    fill: #01cc9d;
+    background: #01cc9d55;
+}
+.item:nth-child(2) .icon {
+    fill: #fd9644;
+    background: #fd964455;
+}
+.item:nth-child(3) .icon {
+    fill: #fed330;
+    background: #fed33055;
+}
+.item p {
+    color: #555;
+    font-size: .8rem;
+    margin-top: .2rem;
+}
+.more {
+    width: 1rem;
+    right: .5rem;
+    fill: #aaa;
+    position: absolute;
+}

@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.container h4 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.checkIcon {
+    width: 5rem;
+    height: 4.9rem;
+    fill: #01cc9d;
+    background: #01cc9d10;
+    border: .2rem solid #01cc9d;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Code */
+.code {
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem #0002;
+    display: flex;
+    padding: .4rem .7rem;
+    margin: 1.5rem 0;
+}
+.code span {
+    width: 1.2rem;
+    fill: #aaa;
+    margin: .1rem 0 -.1rem 1rem;
+    cursor: pointer;
+}
+
+/* Action */
+.action {
+    width: 100%;
+}
+.action button {
+    width: 100%;
+    padding: .8rem;
+}

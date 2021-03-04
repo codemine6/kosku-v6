@@ -1,0 +1,30 @@
+.form {
+    width: 100%;
+    max-width: inherit;
+    bottom: 0;
+    background: #eee;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.form textarea {
+    width: calc(100% - 3.5rem);
+    font-size: 1rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    padding: .6rem 1rem;
+}
+.form i {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #fff;
+    background: #01cc9d;
+    border-radius: 50%;
+    padding: .6rem .5rem .5rem .7rem;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.form {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+}
+.form span {
+    top: .5rem;
+    left: .7rem;
+    color: #555;
+    position: absolute;
+    pointer-events: none;
+}
+.form input {
+    width: 67%;
+    font-size: 1rem;
+    font-family: inherit;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    outline: none;
+    padding: .5rem .7rem .5rem 2.5rem;
+}
+.form div {
+    width: 33%;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: bold;
+    background: #01cc9d;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.form i {
+    width: .8rem;
+    fill: #fff;
+    margin-left: .5rem;
+}
+
+/* Types */
+.types {
+    width: 33%;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    margin: .5rem 0 0 auto;
+}
+.types p {
+    color: #555;
+    font-size: .9rem;
+    text-align: center;
+    margin: .7rem 1rem;
+    cursor: pointer;
+}

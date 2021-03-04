@@ -1,0 +1,49 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth {
+    width: 80%;
+    position: relative;
+    margin: 10vw 0;
+}
+.auth h1 {
+    border-bottom: .1rem solid #01cc9d;
+    padding-bottom: .8rem;
+    margin-bottom: 1.5rem;
+}
+.auth label {
+    color: #5e5e5e;
+    display: block;
+    margin: 1rem 0 .5rem;
+}
+.forgot {
+    width: fit-content;
+    color: #01cc9d;
+    font-size: .8rem;
+    margin: .5rem 0 0 auto;
+    cursor: pointer;
+}
+.error {
+    color: #e34f4f;
+    font-size: .7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.auth button {
+    width: 100%;
+    padding: .8rem 0;
+    margin: 1rem 0;
+}
+
+/* Other */
+.auth > p {
+    font-size: .8rem;
+    text-align: center;
+}
+.auth b {
+    color: #01cc9d;
+    cursor: pointer;
+}

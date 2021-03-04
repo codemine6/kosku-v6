@@ -1,0 +1,36 @@
+.myMessage {
+    width: fit-content;
+    max-width: 80%;
+    text-align: right;
+    word-wrap: break-word;
+    background: #bbf9eb;
+    border-radius: 1rem 0 1rem 1rem;
+    padding: .6rem 1rem;
+    margin: 1rem 0 1rem auto;
+}
+.otherMessage {
+    width: fit-content;
+    max-width: 80%;
+    word-wrap: break-word;
+    background: #fff;
+    border-radius: 0 1rem 1rem 1rem;
+    padding: .6rem 1rem;
+    margin: 1rem 0;
+}
+.myMessage p, .otherMessage p {
+    text-align: left;
+    white-space: pre-line;
+    margin-bottom: .3rem;
+}
+.myMessage div {
+    display: flex;
+}
+.myMessage span, .otherMessage span {
+    color: #555;
+    font-size: .7rem;
+}
+.myMessage i {
+    width: .9rem;
+    fill: #01cc9d;
+    margin: -.1rem .2rem 0 0;
+}

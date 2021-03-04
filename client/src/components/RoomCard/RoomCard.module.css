@@ -1,0 +1,70 @@
+.card {
+    width: calc(50% - .5rem);
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    overflow: hidden;
+    margin: .3rem 0;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 8rem;
+}
+
+.detail {
+    position: relative;
+    padding: .2rem .5rem .5rem;
+}
+
+/* Type */
+.type span {
+    font-size: .7rem;
+    font-weight: bold;
+    border-radius: .3rem;
+    padding: .1rem .4rem;
+}
+.all {
+    color: #555;
+    border: .1rem solid #555;
+}
+.male {
+    color: #01cc9d;
+    border: .1rem solid #01cc9d;
+}
+.female {
+    color: #e361ba;
+    border: .1rem solid #e361ba;
+}
+
+.name {
+    font-size: .9rem;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+/* Location */
+.location {
+    display: flex;
+    align-items: center;
+}
+.location svg {
+    width: 1rem;
+    fill: #01cc9d;
+    margin-right: .3rem;
+}
+.location span {
+    font-size: .7rem;
+    font-weight: bold;
+}
+.location p {
+    color: #555;
+    font-size: .7rem;
+}
+
+.price {
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: .3rem;
+}

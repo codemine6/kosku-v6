@@ -1,0 +1,44 @@
+.review {
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.from {
+    font-size: .8rem;
+    margin-top: .2rem;
+}
+.time {
+    color: #888;
+    font-size: .7rem;
+}
+.text {
+    color: #555;
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+
+/* Reply */
+.replyBtn {
+    color: #555;
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    margin: 0 0 0 auto;
+}
+.replyBtn svg {
+    width: .8rem;
+    fill: #888;
+    margin-left: .5rem;
+}
+
+.reply p {
+    color: #555;
+    font-size: .8rem;
+}
+.reply span {
+    color: #888;
+    font-size: .7rem;
+}

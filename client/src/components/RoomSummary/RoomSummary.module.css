@@ -1,0 +1,38 @@
+.room {
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.room img {
+    width: 4rem;
+    height: 5rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.room div {
+    flex-grow: 1;
+}
+.location {
+    display: flex;
+}
+.location svg {
+    width: 1.3rem;
+    fill: #01cc9d;
+    margin-right: .5rem;
+}
+.location span {
+    font-size: .8rem;
+    font-weight: bold;
+}
+.location p {
+    color: #888;
+    font-size: .8rem;
+}
+.available {
+    color: #01cc9d;
+    font-size: .8rem;
+    text-align: right;
+    margin-top: .5rem;
+}

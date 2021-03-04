@@ -1,0 +1,80 @@
+.item {
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    padding: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+/* Info */
+.info {
+    border-bottom: .1rem solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+.info p {
+    font-size: .7rem;
+    font-weight: bold;
+    border-radius: .3rem;
+    padding: .2rem .4rem;
+}
+.info span {
+    color: #01cc9d;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.waiting {
+    color: #fab700;
+    background: #fff1ca;
+}
+.confirmed, .success {
+    color: #01cc9d;
+    background: #cafff3;
+}
+.canceled {
+    color: #ff5b5b;
+    background: #ffcfcf;
+}
+
+/* Room */
+.room {
+    display: flex;
+}
+.room img {
+    width: 4rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+}
+.location {
+    display: flex;
+}
+.location svg {
+    width: 1.3rem;
+    fill: #01cc9d;
+    margin-right: .5rem;
+}
+.location span {
+    font-size: .8rem;
+    font-weight: bold;
+}
+.location p {
+    color: #888;
+    font-size: .8rem;
+}
+
+/* Detail */
+.detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.detail p {
+    font-size: .7rem;
+}
+.detail span {
+    font-size: .8rem;
+    font-weight: bold;
+}

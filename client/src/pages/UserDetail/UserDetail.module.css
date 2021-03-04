@@ -1,0 +1,30 @@
+/* Main */
+.main {
+    display: flex;
+    margin: 4rem 1.5rem 1.5rem;
+}
+.main img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+}
+
+/* Detail */
+.detail {
+    margin: 1.5rem;
+}
+.detail span {
+    color: #555;
+}
+
+/* List */
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+.list > div {
+    width: calc(50% - .5rem);
+}

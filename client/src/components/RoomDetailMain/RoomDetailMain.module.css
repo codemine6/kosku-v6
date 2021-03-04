@@ -1,0 +1,86 @@
+.main {
+    background: #fff;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1.2rem 1.5rem 1.5rem;
+}
+.chatLink {
+    width: 3.3rem;
+    right: 1.5rem;
+    fill: #01cc9d;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 1rem #0002;
+    padding: .6rem .7rem .55rem;
+    margin-top: -3rem;
+    cursor: pointer;
+}
+
+/* Type */
+.type {
+    margin-bottom: .5rem;
+}
+.all {
+    color: #555;
+}
+.male {
+    color: #01cc9d;
+}
+.female {
+    color: #e361ba;
+}
+
+/* Rating */
+.rating {
+    display: flex;
+    align-items: center;
+}
+.rating span {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+.rating p {
+    color: #888;
+    font-size: .8rem;
+}
+
+/* Location */
+.location {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+.locationIcon {
+    width: 1.7rem;
+    fill: #01cc9d;
+}
+.location div {
+    margin: 0 1rem;
+}
+.location p {
+    color: #888;
+    font-size: .8rem;
+}
+.mapIcon {
+    width: 1.8rem;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Detail */
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.detail p {
+    font-size: .8rem;
+}
+.detail span {
+    color: #01cc9d;
+    font-size: .8rem;
+    margin-top: .2rem;
+}

@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1 {
+    color: #01ffff;
+    font-size: 4rem;
+    position: relative;
+}
+.container h1::after {
+    content: '404';
+    top: .2rem;
+    left: .2rem;
+    color: #01cc9d;
+    position: absolute;
+}
+.container h3 {
+    color: #555;
+    margin: 1rem 0;
+}

@@ -1,0 +1,30 @@
+.container {
+    padding: 4rem 1.5rem 1.5rem;
+}
+.container > h4 {
+    margin: .5rem 0;
+}
+
+/* Detail */
+.detail > span {
+    font-size: .8rem;
+    display: block;
+}
+.detail > p {
+    font-size: .8rem;
+    font-weight: bold;
+    margin: .5rem 1rem;
+}
+.code {
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem #0002;
+    display: inline-flex;
+    padding: .4rem .7rem;
+    margin: 1rem;
+}
+.code span {
+    width: 1.2rem;
+    fill: #aaa;
+    margin: .1rem 0 -.1rem 1rem;
+    cursor: pointer;
+}

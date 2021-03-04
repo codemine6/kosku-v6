@@ -1,0 +1,33 @@
+/* Menu */
+.menu {
+    display: flex;
+    overflow-x: auto;
+    margin: 4rem 1.5rem 1.5rem;
+}
+.menu button {
+    background: #fff;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    outline: none;
+    white-space: nowrap;
+    padding: .6rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.selected {
+    color: #fff;
+    background: #01cc9d !important;
+    border: .1rem solid #01cc9d !important;
+}
+.menu::-webkit-scrollbar {
+    display: none;
+}
+.list {
+    padding: 0 1.5rem 1rem;
+}
+.empty {
+    top: calc(50% - 5.5rem);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}

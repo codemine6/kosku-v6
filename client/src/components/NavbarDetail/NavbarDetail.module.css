@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    max-width: inherit;
+    height: 4rem;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+}
+.right {
+    display: flex;
+}
+.iconBack, .iconLike, .iconShare {
+    width: 1.4rem;
+    fill: #fff;
+    cursor: pointer;
+}
+.iconShare {
+    margin-left: 1rem;
+}

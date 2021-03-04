@@ -1,0 +1,44 @@
+/* Step */
+.step {
+    position: relative;
+    margin: 1rem 0;
+}
+.step span {
+    width: 1.2rem;
+    height: 1.2rem;
+    left: 1.5rem;
+    background: #fff;
+    border: .2rem solid #01cc9d;
+    border-radius: 50%;
+    position: absolute;
+}
+.step span::before {
+    content: '';
+    width: .2rem;
+    height: 2.5rem;
+    top: 1rem;
+    left: .3rem;
+    background: #01cc9d;
+    position: absolute;
+}
+.step:last-child span::before {
+    display: none;
+}
+.pass::after {
+    content: '';
+    width: .6rem;
+    height: .6rem;
+    top: .1rem;
+    left: .1rem;
+    background: #01cc9d;
+    border-radius: 50%;
+    position: absolute;
+}
+.step h5 {
+    margin-left: 4rem;
+}
+.step p {
+    color: #555;
+    font-size: .7rem;
+    margin-left: 4rem;
+}

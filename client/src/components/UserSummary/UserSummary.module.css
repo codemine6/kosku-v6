@@ -1,0 +1,16 @@
+.user {
+    display: flex;
+    margin: 1rem 0;
+}
+.user img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+}
+.user p {
+    color: #555;
+    font-size: .9rem;
+    margin-top: .3rem;
+}

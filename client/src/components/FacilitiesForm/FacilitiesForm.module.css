@@ -1,0 +1,50 @@
+/* Facilities */
+.facilities {
+    position: relative;
+    margin: 1.5rem 0;
+}
+.facilities input {
+    width: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+    border: none;
+    border-bottom: .1rem solid #ddd;
+    outline: none;
+    padding: .5rem .7rem;
+    margin-bottom: .5rem;
+}
+
+/* Options */
+.options {
+    width: 100%;
+    background: #fff;
+    border: .1rem solid #ddd;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #0002;
+    position: absolute;
+    z-index: 1;
+}
+.options p {
+    color: #555;
+    font-size: .9rem;
+    margin: .7rem 1rem;
+    cursor: pointer;
+}
+
+/* List */
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list span {
+    color: #01cc9d;
+    font-size: .8rem;
+    background: #01cc9d22;
+    border-radius: .5rem;
+    white-space: nowrap;
+    padding: .3rem .4rem;
+    margin: .3rem;
+}
+.list span b {
+    margin-left: .3rem;
+}

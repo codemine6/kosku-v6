@@ -1,0 +1,38 @@
+.carousel {
+    height: 100%;
+    position: relative;
+}
+
+/* Slide */
+.slide {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.slide > img, .slide > div {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.slide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Bar */
+.bar {
+    width: 100%;
+    bottom: .5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.bar span {
+    width: .4rem;
+    height: .4rem;
+    background: #01cc9d;
+    border-radius: .2rem;
+    margin: .2rem;
+}
+.active {
+    width: .8rem !important;
+}
